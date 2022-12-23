@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 .JobView_Page{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    /* height: 100vh; */
     
 }
 .sideBarComponent{

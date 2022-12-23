@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .sideBar{
+    height: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
     background-color: #1C212D;
 }
 .logoSection_box{
