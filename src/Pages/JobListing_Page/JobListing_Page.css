@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jobListing_Page{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* height: 100vh; */
+}
+.jobListing_Page_SideBar{
+    width: 20%;
+}
+.jobListing_Page_MainPage{
+    width: 80%;
+}
+.jobListingView{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.jobListing_Page_MainPagHeader{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.jobListingBox{
+    width: 100%; 
+    text-align: left;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+.left{
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.deleteIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa-ellipsis-v {
+    color: red;
+}
+
+.right{
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+.right button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

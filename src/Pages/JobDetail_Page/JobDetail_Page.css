@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jobDetail_Page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.jobDetail_Page_LeftSideBar{
+    width: 20%;
+    height:auto;
+}
+.jobDetail_MainPage{
+    width: 80%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.job_form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    gap: 10px;
+}
+.job input{
+    width: 90%;
+    padding: 15px;
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.jobTitle{
+    float: left;
+    padding-bottom: 20px;
+}
+.jobDetailsForm{
+    padding-left: 40px;
+}
+.saveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.savebtn{
+    background-color: black;
+    color: white;
+    width: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
