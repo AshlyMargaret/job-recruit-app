@@ -10,6 +10,7 @@ function UnderConstruction() {
         <button onClick={()=>{
             navigate("/")
         }}>Back To</button>
+        <h2>Under Construction</h2>
         <img src={GIF} alt="GIF" />
     </div>
   )

@@ -52,7 +52,7 @@ function JobListing_Page() {
                                     <h5>Matches Found</h5>
                                 </div>
                                 <div className="rightBox2">
-                                    <h3>456</h3>
+                                    <h3>0</h3>
                                     <h6>Candidates</h6>
                                 </div>
                                 <div className="rightBox3">
