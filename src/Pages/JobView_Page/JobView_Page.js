@@ -37,41 +37,62 @@ useEffect(() => {
              <div className="jobDetailsBox1">
 
              <div className="titleBox box" >
+              <div className="titleBox1 bbb">
               <h5>Title:</h5>
+              </div>
+              <div className="titleBox2 bbb">
               <p>{jobData.Title}</p>
+              </div>           
              </div>
-             <div className="positionBox box" >
-             <h5>Positon:</h5>
+
+              <div className="positionBox box" >
+              <div className="positionBox1 bbb">
+              <h5>Positon:</h5>
+              </div>
+              <div className="positionBox2 bbb">
               <p>{jobData.Position}</p>
+              </div>
              </div>
+
+
              <div className="typeBox box" >
-             <h5>Type:</h5>
+              <div className="bbb">
+              <h5>Type:</h5>
+              </div>
+              <div className="bbb">
               <p>{jobData.Type}</p>
+              </div>             
              </div>
+
              <div className="industryBox box" >
-             <h5>Industry:</h5>
+              <div className="bbb">
+              <h5>Industry:</h5>
+              </div>
+              <div className="bbb">
               <p>{jobData.Industry}</p>
+              </div>             
              </div>
-             {/* <div className="roleBox box" >
-             <h5>Role</h5>
-              <p>dd</p>
-             </div> */}
+
+            
              <div className="experienceBox box" >
-             <h5>Experience:</h5>
+              <div className="bbb">
+              <h5>Experience:</h5>
+              </div>
+              <div className="bbb">
               <p>{jobData.Experience}</p>
+              </div>            
              </div>
+
              <div className="skillsBox box" >
-             <h5>Skills:</h5>
+              <div className="bbb">
+              <h5>Skills:</h5>
+              </div>
+              <div className="bbb">
               <p>{jobData.skills}</p>
+              </div>             
              </div>
-             {/* <div className="locationBox box" >
-             <h5>Location</h5>
-              <p>dd</p>
-             </div>
-             <div className="salaryBox box" >
-             <h5>Salary</h5>
-              <p>dd</p>
-             </div> */}
+
+          
              </div>
              <div className="jobDetailsBox2">
               <div className="descriptionTitle">
