@@ -7,10 +7,11 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* height: 100vh; */
+   
   
 }
 .jobListing_Page_SideBar{
+    
     width: 20%;
 }
 .jobListing_Page_MainPage{

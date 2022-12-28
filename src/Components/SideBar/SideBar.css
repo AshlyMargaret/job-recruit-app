@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .sideBar{
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
