@@ -75,11 +75,12 @@ function JobDetail_Page() {
             <SideBar/>
         </div>
         <div className="jobDetail_MainPage">
-          <div className="header">
+            <div className="ccc">
+            <div className="header">
           <img src={Icon} alt="Icon" />
           </div> 
           <div className="jobDetailsForm">
-            <div className="jobTitle">
+            <div className="jobDetailTitle">
                 <h2>Job Details</h2>
             </div>
             <form action="" className='job_form' onSubmit = {handleSubmit }>
@@ -134,6 +135,8 @@ function JobDetail_Page() {
 
             
           </div>
+            </div>
+          
           
         </div>
        
