@@ -9,3 +9,6 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.search-wrapper{
+    width: 30%;
+}

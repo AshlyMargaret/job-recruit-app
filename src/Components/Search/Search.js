@@ -7,7 +7,7 @@ function Search(props) {
     
   return (
     <div className='search'>
-        <input type="text" id="searchInput" placeholder="Search" onChange={(e)=>{
+        <input type="text"  className='searchInput' placeholder="Search" onChange={(e)=>{
            console.log(e.target.value)
           //  getCountryListByName(e.target.value)
         }}></input>

@@ -20,9 +20,9 @@
 .jobListingView{
     display: flex;
     flex-direction: column;
-    gap: 30px;
     padding-left: 40px;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 .jobListing_Page_MainPagHeader{
     padding-left: 40px;
@@ -32,19 +32,22 @@
 .jobListingBox{
     width: 100%; 
     text-align: left;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 15px;
+    
     
 }
 .left{
+    background-color: #FAFAFA;
     width: 70%;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
+    border-radius: 9px;
 }
 .deleteIcon{
     display: flex;
@@ -56,17 +59,21 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.fa-ellipsis-v {
+/* .fa-ellipsis-v {
     color: red;
-}
+} */
 
 .right{
+    background-color: #FAFAFA;
     width: 20%;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     padding: 20px;
+    border-radius: 9px;
 }
 .right button{
     background-color: black;
@@ -74,4 +81,22 @@
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+}
+p{
+    font-size: 13px;
+}
+.flex1 i{
+    color: black;
+}
+.deleteIcon i{
+    color: red;
+}
+.rightBox3 button{
+    font-size: 12px;
+}
+.rightBox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
