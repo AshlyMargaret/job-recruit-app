@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 .sideBar{
-    width: 100%;
-    height: 100vh;
+    position:fixed;
+    top:0;
+    bottom:0;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     background-color: #1C212D;
 }
 .logoSection_box{
@@ -34,19 +35,53 @@
 .menuSection_box{
     color: white;
 }
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
 li{
     cursor: pointer;
 }
 ul li{
     list-style: none;
 }
-ul{
+.angle i{
+    color: white;
+    font-size: 9px;
+}
+.menuUlConatiner{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
+    gap: 30px;
 }
-.angle{
+
+i{
+    padding-right: 10px;
+   
+}
+
+  .dropdown-content {  
+    color: white; 
+    padding-left: 50px;  
+  }
+  a{
+    text-decoration: none;
     color: white;
-}
+  }
+  .dropdown a:focus {
+    background-color: yellow;
+   
+  }
+  li{
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  
+  }
+  .dropdown-content li a:active{
+       background-color: white;
+  }
